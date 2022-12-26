@@ -12,20 +12,19 @@ They sum up to 41, so sumOfAllPrimes(15) would return 41.
 
 
 def sumofAllPrimes(A):
-    count = A
     final_array = []
 
-    while count > 1:
+    while A > 1:
 
-        res = [val for val in range(1, count+1) if count % val == 0]
+        res = [val for val in range(1, A+1) if A % val == 0]
 
         if len(res) == 2:
-            final_array.append(count)
+            final_array.append(A)
 
-        count -= 1
+        A -= 1
 
     print(f"the final array is {list(reversed(final_array))}")
     return sum(final_array)
 
 
-print(sumofAllPrimes(15))
+print(sumofAllPrimes(4))
