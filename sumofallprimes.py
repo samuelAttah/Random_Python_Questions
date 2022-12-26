@@ -1,5 +1,5 @@
 """
-QUESTION FOR ALGO DAILY
+QUESTION FROM ALGO DAILY
 
 Sum All Primes
 You're given a number n. Can you write a method sumOfAllPrimes that finds all prime numbers smaller than or equal to n,
