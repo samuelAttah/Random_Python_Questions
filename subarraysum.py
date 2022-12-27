@@ -45,4 +45,4 @@ def subarraySum(arr, value):
     return flag
 
 
-subarraySum([1, 2, 3, 5])
+print(subarraySum([1, 2, 3], 3))
